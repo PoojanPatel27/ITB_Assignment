@@ -1,1 +1,16 @@
-<app-login></app-login>
+<!-- <app-login></app-login>
+<app-register></app-register>
+<app-forgot-password></app-forgot-password>
+<app-user></app-user> -->
+
+<nav>
+    <div class="logo">POOJAN</div>
+    <ul>
+        <li><a routerLink="/register" routerLinkActive="active">Register</a></li>
+        <li><a routerLink="/login" routerLinkActive="active">Login</a></li>
+        <li><a routerLink="/user" routerLinkActive="active">User</a></li>
+        <li><a routerLink="/forgot-password" routerLinkActive="active">Forgot Password</a></li>
+    </ul>
+</nav>
+
+<router-outlet></router-outlet>
